@@ -1,0 +1,1791 @@
+{
+  "@context" : {
+    "modifies" : {
+      "@id" : "https://tuos.org/qm#modifies",
+      "@type" : "@id"
+    },
+    "PrincipleOfSymmetry" : {
+      "@id" : "https://tuos.org/qm#PrincipleOfSymmetry"
+    },
+    "operatesThrough" : {
+      "@id" : "https://tuos.org/qm#operatesThrough",
+      "@type" : "@id"
+    },
+    "isBalancedBy" : {
+      "@id" : "https://tuos.org/qm#isBalancedBy",
+      "@type" : "@id"
+    },
+    "EmotionalResponse" : {
+      "@id" : "https://tuos.org/qm#EmotionalResponse"
+    },
+    "DysfunctionalPattern" : {
+      "@id" : "https://tuos.org/qm#DysfunctionalPattern"
+    },
+    "VectorizedAwareness" : {
+      "@id" : "https://tuos.org/qm#VectorizedAwareness"
+    },
+    "HumanCapacitiesCategory" : {
+      "@id" : "https://tuos.org/qm#HumanCapacitiesCategory"
+    },
+    "PsychodynamicWaveCollapse" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicWaveCollapse"
+    },
+    "LiberationFromInheritedScripts" : {
+      "@id" : "https://tuos.org/qm#LiberationFromInheritedScripts"
+    },
+    "NarrativeManagement" : {
+      "@id" : "https://tuos.org/qm#NarrativeManagement"
+    },
+    "PsychoProtectiveDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoProtectiveDimension"
+    },
+    "ConfirmationBiasCycle" : {
+      "@id" : "https://tuos.org/qm#ConfirmationBiasCycle"
+    },
+    "EmotionalRegulation" : {
+      "@id" : "https://tuos.org/qm#EmotionalRegulation"
+    },
+    "IntersubjectiveReality" : {
+      "@id" : "https://tuos.org/qm#IntersubjectiveReality"
+    },
+    "EmbodiedMindfulness" : {
+      "@id" : "https://tuos.org/qm#EmbodiedMindfulness"
+    },
+    "Proxy" : {
+      "@id" : "https://tuos.org/qm#Proxy"
+    },
+    "connection_Pd8_Pd9" : {
+      "@id" : "https://tuos.org/qm#connection_Pd8_Pd9",
+      "@type" : "@id"
+    },
+    "CoreConceptsCategory" : {
+      "@id" : "https://tuos.org/qm#CoreConceptsCategory"
+    },
+    "isModulatedBy" : {
+      "@id" : "https://tuos.org/qm#isModulatedBy",
+      "@type" : "@id"
+    },
+    "PsychodynamicDimensionsCategory" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicDimensionsCategory"
+    },
+    "BehavioralManifestation" : {
+      "@id" : "https://tuos.org/qm#BehavioralManifestation"
+    },
+    "CognitiveAppraisalComponentsCategory" : {
+      "@id" : "https://tuos.org/qm#CognitiveAppraisalComponentsCategory"
+    },
+    "CognitiveEmergenceField" : {
+      "@id" : "https://tuos.org/qm#CognitiveEmergenceField"
+    },
+    "hasEngagementStyle" : {
+      "@id" : "https://tuos.org/qm#hasEngagementStyle",
+      "@type" : "@id"
+    },
+    "DimensionalLiteracy" : {
+      "@id" : "https://tuos.org/qm#DimensionalLiteracy"
+    },
+    "PrincipleOfMeasure" : {
+      "@id" : "https://tuos.org/qm#PrincipleOfMeasure"
+    },
+    "OsmoticIntegration" : {
+      "@id" : "https://tuos.org/qm#OsmoticIntegration"
+    },
+    "DimensionalCrystallization" : {
+      "@id" : "https://tuos.org/qm#DimensionalCrystallization"
+    },
+    "PrincipleReceptivity" : {
+      "@id" : "https://tuos.org/qm#PrincipleReceptivity"
+    },
+    "providesFoundationFor" : {
+      "@id" : "https://tuos.org/qm#providesFoundationFor",
+      "@type" : "@id"
+    },
+    "ConsciousnessWaveFunction" : {
+      "@id" : "https://tuos.org/qm#ConsciousnessWaveFunction"
+    },
+    "CognitiveMapping" : {
+      "@id" : "https://tuos.org/qm#CognitiveMapping"
+    },
+    "ObserverParticipantTheory" : {
+      "@id" : "https://tuos.org/qm#ObserverParticipantTheory"
+    },
+    "PsychoVolitionalDynamics" : {
+      "@id" : "https://tuos.org/qm#PsychoVolitionalDynamics"
+    },
+    "reliesOn" : {
+      "@id" : "https://tuos.org/qm#reliesOn",
+      "@type" : "@id"
+    },
+    "connection_Pd1_Pd2" : {
+      "@id" : "https://tuos.org/qm#connection_Pd1_Pd2",
+      "@type" : "@id"
+    },
+    "facilitatesEmbodimentOf" : {
+      "@id" : "https://tuos.org/qm#facilitatesEmbodimentOf",
+      "@type" : "@id"
+    },
+    "isEngagedBy" : {
+      "@id" : "https://tuos.org/qm#isEngagedBy",
+      "@type" : "@id"
+    },
+    "ActiveReframingProcess" : {
+      "@id" : "https://tuos.org/qm#ActiveReframingProcess"
+    },
+    "CognitiveAppraisal" : {
+      "@id" : "https://tuos.org/qm#CognitiveAppraisal"
+    },
+    "operatesAs" : {
+      "@id" : "https://tuos.org/qm#operatesAs",
+      "@type" : "@id"
+    },
+    "StandardizedProtocol" : {
+      "@id" : "https://tuos.org/qm#StandardizedProtocol"
+    },
+    "connection_Pd5_Pd8" : {
+      "@id" : "https://tuos.org/qm#connection_Pd5_Pd8",
+      "@type" : "@id"
+    },
+    "CognitiveMultiStateAwareness" : {
+      "@id" : "https://tuos.org/qm#CognitiveMultiStateAwareness"
+    },
+    "PerceptualShapingTechnique" : {
+      "@id" : "https://tuos.org/qm#PerceptualShapingTechnique"
+    },
+    "MindfulnessBasedStressReduction" : {
+      "@id" : "https://tuos.org/qm#MindfulnessBasedStressReduction"
+    },
+    "UnresolvedSuperpositionConsequence" : {
+      "@id" : "https://tuos.org/qm#UnresolvedSuperpositionConsequence"
+    },
+    "addressesLimitationsOf" : {
+      "@id" : "https://tuos.org/qm#addressesLimitationsOf",
+      "@type" : "@id"
+    },
+    "TherapeuticStrategy" : {
+      "@id" : "https://tuos.org/qm#TherapeuticStrategy"
+    },
+    "RelationalConsciousness" : {
+      "@id" : "https://tuos.org/qm#RelationalConsciousness"
+    },
+    "OntologicalStatecraft" : {
+      "@id" : "https://tuos.org/qm#OntologicalStatecraft"
+    },
+    "PsychodynamicDimension" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicDimension"
+    },
+    "NonlocalGoalState" : {
+      "@id" : "https://tuos.org/qm#NonlocalGoalState"
+    },
+    "PsychodynamicFriction" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicFriction"
+    },
+    "Anxiety" : {
+      "@id" : "https://tuos.org/qm#Anxiety"
+    },
+    "CognitiveAgency" : {
+      "@id" : "https://tuos.org/qm#CognitiveAgency"
+    },
+    "hasNegativeConsequence" : {
+      "@id" : "https://tuos.org/qm#hasNegativeConsequence",
+      "@type" : "@id"
+    },
+    "SocialInfluence" : {
+      "@id" : "https://tuos.org/qm#SocialInfluence"
+    },
+    "isDevelopedBy" : {
+      "@id" : "https://tuos.org/qm#isDevelopedBy",
+      "@type" : "@id"
+    },
+    "describes" : {
+      "@id" : "https://tuos.org/qm#describes",
+      "@type" : "@id"
+    },
+    "QM_Quantum" : {
+      "@id" : "https://tuos.org/qm#QM_Quantum"
+    },
+    "SustainedActionMechanism" : {
+      "@id" : "https://tuos.org/qm#SustainedActionMechanism"
+    },
+    "isTriggeredBy" : {
+      "@id" : "https://tuos.org/qm#isTriggeredBy",
+      "@type" : "@id"
+    },
+    "EmotionalStormTheory" : {
+      "@id" : "https://tuos.org/qm#EmotionalStormTheory"
+    },
+    "CognitiveFramework" : {
+      "@id" : "https://tuos.org/qm#CognitiveFramework"
+    },
+    "FormalArchitectureCategory" : {
+      "@id" : "https://tuos.org/qm#FormalArchitectureCategory"
+    },
+    "FundamentalEnergeticSubstrate" : {
+      "@id" : "https://tuos.org/qm#FundamentalEnergeticSubstrate"
+    },
+    "CognitiveStrainAndDysfunction" : {
+      "@id" : "https://tuos.org/qm#CognitiveStrainAndDysfunction"
+    },
+    "DestructiveInterference" : {
+      "@id" : "https://tuos.org/qm#DestructiveInterference"
+    },
+    "BiologicalOverrideSystem" : {
+      "@id" : "https://tuos.org/qm#BiologicalOverrideSystem"
+    },
+    "isFundamentalUnitOf" : {
+      "@id" : "https://tuos.org/qm#isFundamentalUnitOf",
+      "@type" : "@id"
+    },
+    "BonesOfReality" : {
+      "@id" : "https://tuos.org/qm#BonesOfReality"
+    },
+    "navigatesWithin" : {
+      "@id" : "https://tuos.org/qm#navigatesWithin",
+      "@type" : "@id"
+    },
+    "ObservableEffect" : {
+      "@id" : "https://tuos.org/qm#ObservableEffect"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "OverallMentalState" : {
+      "@id" : "https://tuos.org/qm#OverallMentalState"
+    },
+    "InherentDisposition" : {
+      "@id" : "https://tuos.org/qm#InherentDisposition"
+    },
+    "formsBasisFor" : {
+      "@id" : "https://tuos.org/qm#formsBasisFor",
+      "@type" : "@id"
+    },
+    "ChallengesAndLimitations" : {
+      "@id" : "https://tuos.org/qm#ChallengesAndLimitations"
+    },
+    "isSupportedByMechanism" : {
+      "@id" : "https://tuos.org/qm#isSupportedByMechanism",
+      "@type" : "@id"
+    },
+    "biases" : {
+      "@id" : "https://tuos.org/qm#biases",
+      "@type" : "@id"
+    },
+    "PsychosocialEmotiveTriad" : {
+      "@id" : "https://tuos.org/qm#PsychosocialEmotiveTriad"
+    },
+    "ObservationComponent" : {
+      "@id" : "https://tuos.org/qm#ObservationComponent"
+    },
+    "mapsDirectlyTo" : {
+      "@id" : "https://tuos.org/qm#mapsDirectlyTo",
+      "@type" : "@id"
+    },
+    "connection_Pd3_Pd5" : {
+      "@id" : "https://tuos.org/qm#connection_Pd3_Pd5",
+      "@type" : "@id"
+    },
+    "FinalIntensity" : {
+      "@id" : "https://tuos.org/qm#FinalIntensity"
+    },
+    "RawSensoryData" : {
+      "@id" : "https://tuos.org/qm#RawSensoryData"
+    },
+    "isFoundationFor" : {
+      "@id" : "https://tuos.org/qm#isFoundationFor",
+      "@type" : "@id"
+    },
+    "DimensionalActivation" : {
+      "@id" : "https://tuos.org/qm#DimensionalActivation"
+    },
+    "OntologicalStarvation" : {
+      "@id" : "https://tuos.org/qm#OntologicalStarvation"
+    },
+    "ManagementOfCognitiveStrain" : {
+      "@id" : "https://tuos.org/qm#ManagementOfCognitiveStrain"
+    },
+    "PsychoMotivationalDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoMotivationalDimension"
+    },
+    "SuperpositionalCognitiveEngineering" : {
+      "@id" : "https://tuos.org/qm#SuperpositionalCognitiveEngineering"
+    },
+    "connection_Pd2_Pd6" : {
+      "@id" : "https://tuos.org/qm#connection_Pd2_Pd6",
+      "@type" : "@id"
+    },
+    "TraitVariable" : {
+      "@id" : "https://tuos.org/qm#TraitVariable"
+    },
+    "isShapedByTechnique" : {
+      "@id" : "https://tuos.org/qm#isShapedByTechnique",
+      "@type" : "@id"
+    },
+    "ActiveConstitutiveForceView" : {
+      "@id" : "https://tuos.org/qm#ActiveConstitutiveForceView"
+    },
+    "orchestrates" : {
+      "@id" : "https://tuos.org/qm#orchestrates",
+      "@type" : "@id"
+    },
+    "MindControlsBrainPrinciple" : {
+      "@id" : "https://tuos.org/qm#MindControlsBrainPrinciple"
+    },
+    "SuperpositionalCognition" : {
+      "@id" : "https://tuos.org/qm#SuperpositionalCognition"
+    },
+    "canDurablyAlter" : {
+      "@id" : "https://tuos.org/qm#canDurablyAlter",
+      "@type" : "@id"
+    },
+    "hasKabbalisticCorrespondence" : {
+      "@id" : "https://tuos.org/qm#hasKabbalisticCorrespondence"
+    },
+    "hasViewOfPerception" : {
+      "@id" : "https://tuos.org/qm#hasViewOfPerception",
+      "@type" : "@id"
+    },
+    "ParadoxTolerance" : {
+      "@id" : "https://tuos.org/qm#ParadoxTolerance"
+    },
+    "practices" : {
+      "@id" : "https://tuos.org/qm#practices",
+      "@type" : "@id"
+    },
+    "CognitiveAppraisalBias" : {
+      "@id" : "https://tuos.org/qm#CognitiveAppraisalBias"
+    },
+    "ObserverParticipantDynamic" : {
+      "@id" : "https://tuos.org/qm#ObserverParticipantDynamic"
+    },
+    "consolidates" : {
+      "@id" : "https://tuos.org/qm#consolidates",
+      "@type" : "@id"
+    },
+    "GoalsCategory" : {
+      "@id" : "https://tuos.org/qm#GoalsCategory"
+    },
+    "CognitiveFluency" : {
+      "@id" : "https://tuos.org/qm#CognitiveFluency"
+    },
+    "isInputTo" : {
+      "@id" : "https://tuos.org/qm#isInputTo",
+      "@type" : "@id"
+    },
+    "PsychoAestheticDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoAestheticDimension"
+    },
+    "TranslationChallengeInPsychology" : {
+      "@id" : "https://tuos.org/qm#TranslationChallengeInPsychology"
+    },
+    "QuantumObserver" : {
+      "@id" : "https://tuos.org/qm#QuantumObserver"
+    },
+    "SelfAsDynamicObserverParticipant" : {
+      "@id" : "https://tuos.org/qm#SelfAsDynamicObserverParticipant"
+    },
+    "ConsciousRealityConstruction" : {
+      "@id" : "https://tuos.org/qm#ConsciousRealityConstruction"
+    },
+    "leverages" : {
+      "@id" : "https://tuos.org/qm#leverages",
+      "@type" : "@id"
+    },
+    "PersonalityOrganization" : {
+      "@id" : "https://tuos.org/qm#PersonalityOrganization"
+    },
+    "precedes" : {
+      "@id" : "https://tuos.org/qm#precedes",
+      "@type" : "@id"
+    },
+    "EmbodiedMindfulnessPractices" : {
+      "@id" : "https://tuos.org/qm#EmbodiedMindfulnessPractices"
+    },
+    "ReligiousFluidity" : {
+      "@id" : "https://tuos.org/qm#ReligiousFluidity"
+    },
+    "PrincipleOfRestraint" : {
+      "@id" : "https://tuos.org/qm#PrincipleOfRestraint"
+    },
+    "CognitiveAnchoring" : {
+      "@id" : "https://tuos.org/qm#CognitiveAnchoring"
+    },
+    "TherapeuticStrategiesCategory" : {
+      "@id" : "https://tuos.org/qm#TherapeuticStrategiesCategory"
+    },
+    "EmotionalRewilding" : {
+      "@id" : "https://tuos.org/qm#EmotionalRewilding"
+    },
+    "EmotionalCreativity" : {
+      "@id" : "https://tuos.org/qm#EmotionalCreativity"
+    },
+    "connection_Pd9_Pd10" : {
+      "@id" : "https://tuos.org/qm#connection_Pd9_Pd10",
+      "@type" : "@id"
+    },
+    "InterferencePatterns" : {
+      "@id" : "https://tuos.org/qm#InterferencePatterns"
+    },
+    "PersonalTendency_ObservationReactivity" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_ObservationReactivity"
+    },
+    "ConsciousObservation" : {
+      "@id" : "https://tuos.org/qm#ConsciousObservation"
+    },
+    "ProtectivePrinciple" : {
+      "@id" : "https://tuos.org/qm#ProtectivePrinciple"
+    },
+    "CognitiveSuperposition" : {
+      "@id" : "https://tuos.org/qm#CognitiveSuperposition"
+    },
+    "AestheticPrinciple" : {
+      "@id" : "https://tuos.org/qm#AestheticPrinciple"
+    },
+    "FormalArchitecturalParameter" : {
+      "@id" : "https://tuos.org/qm#FormalArchitecturalParameter"
+    },
+    "underpins" : {
+      "@id" : "https://tuos.org/qm#underpins",
+      "@type" : "@id"
+    },
+    "ProtoImpulse" : {
+      "@id" : "https://tuos.org/qm#ProtoImpulse"
+    },
+    "ResponseRePatterning" : {
+      "@id" : "https://tuos.org/qm#ResponseRePatterning"
+    },
+    "connection_Pd7_Pd10" : {
+      "@id" : "https://tuos.org/qm#connection_Pd7_Pd10",
+      "@type" : "@id"
+    },
+    "PsychoFoundationalEncoding" : {
+      "@id" : "https://tuos.org/qm#PsychoFoundationalEncoding"
+    },
+    "VulnerabilityStructure" : {
+      "@id" : "https://tuos.org/qm#VulnerabilityStructure"
+    },
+    "EmotionalCollapseSculpting" : {
+      "@id" : "https://tuos.org/qm#EmotionalCollapseSculpting"
+    },
+    "connection_Pd1_Pd3" : {
+      "@id" : "https://tuos.org/qm#connection_Pd1_Pd3",
+      "@type" : "@id"
+    },
+    "formsFoundationOf" : {
+      "@id" : "https://tuos.org/qm#formsFoundationOf",
+      "@type" : "@id"
+    },
+    "ConsciousAttention" : {
+      "@id" : "https://tuos.org/qm#ConsciousAttention"
+    },
+    "actsAsChannelFor" : {
+      "@id" : "https://tuos.org/qm#actsAsChannelFor",
+      "@type" : "@id"
+    },
+    "SubDynamicInterference" : {
+      "@id" : "https://tuos.org/qm#SubDynamicInterference"
+    },
+    "ProbabilisticField" : {
+      "@id" : "https://tuos.org/qm#ProbabilisticField"
+    },
+    "InternalConflictResolution" : {
+      "@id" : "https://tuos.org/qm#InternalConflictResolution"
+    },
+    "QuantumDiplomacy" : {
+      "@id" : "https://tuos.org/qm#QuantumDiplomacy"
+    },
+    "isSegregatedBy" : {
+      "@id" : "https://tuos.org/qm#isSegregatedBy",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "StructuralAwareness" : {
+      "@id" : "https://tuos.org/qm#StructuralAwareness"
+    },
+    "isDeterminedBy" : {
+      "@id" : "https://tuos.org/qm#isDeterminedBy",
+      "@type" : "@id"
+    },
+    "NaturalDevelopment" : {
+      "@id" : "https://tuos.org/qm#NaturalDevelopment"
+    },
+    "AnalyticalReasoning" : {
+      "@id" : "https://tuos.org/qm#AnalyticalReasoning"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Reputation" : {
+      "@id" : "https://tuos.org/qm#Reputation"
+    },
+    "AestheticResolution" : {
+      "@id" : "https://tuos.org/qm#AestheticResolution"
+    },
+    "InheritedScripts" : {
+      "@id" : "https://tuos.org/qm#InheritedScripts"
+    },
+    "DevelopmentalInterferencePattern" : {
+      "@id" : "https://tuos.org/qm#DevelopmentalInterferencePattern"
+    },
+    "contains" : {
+      "@id" : "https://tuos.org/qm#contains",
+      "@type" : "@id"
+    },
+    "IdentityTransformationProcess" : {
+      "@id" : "https://tuos.org/qm#IdentityTransformationProcess"
+    },
+    "ProactiveSelfRegulation" : {
+      "@id" : "https://tuos.org/qm#ProactiveSelfRegulation"
+    },
+    "QuantumMindfulnessApplication" : {
+      "@id" : "https://tuos.org/qm#QuantumMindfulnessApplication"
+    },
+    "CognitiveModality" : {
+      "@id" : "https://tuos.org/qm#CognitiveModality"
+    },
+    "CognitiveCapacity" : {
+      "@id" : "https://tuos.org/qm#CognitiveCapacity"
+    },
+    "PsychologicalHeart" : {
+      "@id" : "https://tuos.org/qm#PsychologicalHeart"
+    },
+    "ActiveMastery" : {
+      "@id" : "https://tuos.org/qm#ActiveMastery"
+    },
+    "ObserverEffectParadox" : {
+      "@id" : "https://tuos.org/qm#ObserverEffectParadox"
+    },
+    "constituentOf" : {
+      "@id" : "https://tuos.org/qm#constituentOf",
+      "@type" : "@id"
+    },
+    "ConstructiveInterference" : {
+      "@id" : "https://tuos.org/qm#ConstructiveInterference"
+    },
+    "isEngineOf" : {
+      "@id" : "https://tuos.org/qm#isEngineOf",
+      "@type" : "@id"
+    },
+    "PerceptualDistortion" : {
+      "@id" : "https://tuos.org/qm#PerceptualDistortion"
+    },
+    "connection_Pd6_Pd8" : {
+      "@id" : "https://tuos.org/qm#connection_Pd6_Pd8",
+      "@type" : "@id"
+    },
+    "PerceptualAgility" : {
+      "@id" : "https://tuos.org/qm#PerceptualAgility"
+    },
+    "CollapseDysfunction" : {
+      "@id" : "https://tuos.org/qm#CollapseDysfunction"
+    },
+    "translatesValuesInto" : {
+      "@id" : "https://tuos.org/qm#translatesValuesInto",
+      "@type" : "@id"
+    },
+    "ActiveStructuralInvestigation" : {
+      "@id" : "https://tuos.org/qm#ActiveStructuralInvestigation"
+    },
+    "SystemDeconstruction" : {
+      "@id" : "https://tuos.org/qm#SystemDeconstruction"
+    },
+    "DimensionalActivationInfluencesCategory" : {
+      "@id" : "https://tuos.org/qm#DimensionalActivationInfluencesCategory"
+    },
+    "PsychoConceptiveDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoConceptiveDimension"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+    },
+    "ConsciousRealityCreation" : {
+      "@id" : "https://tuos.org/qm#ConsciousRealityCreation"
+    },
+    "ObservationInfluence" : {
+      "@id" : "https://tuos.org/qm#ObservationInfluence"
+    },
+    "ReConvergence" : {
+      "@id" : "https://tuos.org/qm#ReConvergence"
+    },
+    "PracticesCategory" : {
+      "@id" : "https://tuos.org/qm#PracticesCategory"
+    },
+    "TraitInfluence" : {
+      "@id" : "https://tuos.org/qm#TraitInfluence"
+    },
+    "CulturalNarrative" : {
+      "@id" : "https://tuos.org/qm#CulturalNarrative"
+    },
+    "MentalFilesystemOrganization" : {
+      "@id" : "https://tuos.org/qm#MentalFilesystemOrganization"
+    },
+    "PerceptualContract" : {
+      "@id" : "https://tuos.org/qm#PerceptualContract"
+    },
+    "MentalState" : {
+      "@id" : "https://tuos.org/qm#MentalState"
+    },
+    "ObserverRole" : {
+      "@id" : "https://tuos.org/qm#ObserverRole"
+    },
+    "develops" : {
+      "@id" : "https://tuos.org/qm#develops",
+      "@type" : "@id"
+    },
+    "BeliefFormation" : {
+      "@id" : "https://tuos.org/qm#BeliefFormation"
+    },
+    "PsychoMeditativeStructuring" : {
+      "@id" : "https://tuos.org/qm#PsychoMeditativeStructuring"
+    },
+    "Perception" : {
+      "@id" : "https://tuos.org/qm#Perception"
+    },
+    "PsychodynamicHarmonicAlignment" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicHarmonicAlignment"
+    },
+    "CognitiveDecoherence" : {
+      "@id" : "https://tuos.org/qm#CognitiveDecoherence"
+    },
+    "enablesConversionOf" : {
+      "@id" : "https://tuos.org/qm#enablesConversionOf",
+      "@type" : "@id"
+    },
+    "follows" : {
+      "@id" : "https://tuos.org/qm#follows",
+      "@type" : "@id"
+    },
+    "PerceptualGoal" : {
+      "@id" : "https://tuos.org/qm#PerceptualGoal"
+    },
+    "CognitiveFilteringMechanism" : {
+      "@id" : "https://tuos.org/qm#CognitiveFilteringMechanism"
+    },
+    "hasCapacityFor" : {
+      "@id" : "https://tuos.org/qm#hasCapacityFor",
+      "@type" : "@id"
+    },
+    "ActualizedExperience" : {
+      "@id" : "https://tuos.org/qm#ActualizedExperience"
+    },
+    "canHaveInterferencePattern" : {
+      "@id" : "https://tuos.org/qm#canHaveInterferencePattern",
+      "@type" : "@id"
+    },
+    "ChallengesAndLimitationsCategory" : {
+      "@id" : "https://tuos.org/qm#ChallengesAndLimitationsCategory"
+    },
+    "Perception_Concept" : {
+      "@id" : "https://tuos.org/qm#Perception_Concept"
+    },
+    "PatternedPresence" : {
+      "@id" : "https://tuos.org/qm#PatternedPresence"
+    },
+    "OntologicalRestructuring" : {
+      "@id" : "https://tuos.org/qm#OntologicalRestructuring"
+    },
+    "SovereignArchitecture" : {
+      "@id" : "https://tuos.org/qm#SovereignArchitecture"
+    },
+    "employs" : {
+      "@id" : "https://tuos.org/qm#employs",
+      "@type" : "@id"
+    },
+    "PsychoMeditativeCollapse" : {
+      "@id" : "https://tuos.org/qm#PsychoMeditativeCollapse"
+    },
+    "filters" : {
+      "@id" : "https://tuos.org/qm#filters",
+      "@type" : "@id"
+    },
+    "connection_Pd4_Pd6" : {
+      "@id" : "https://tuos.org/qm#connection_Pd4_Pd6",
+      "@type" : "@id"
+    },
+    "RelationalHealth" : {
+      "@id" : "https://tuos.org/qm#RelationalHealth"
+    },
+    "stemsFrom" : {
+      "@id" : "https://tuos.org/qm#stemsFrom",
+      "@type" : "@id"
+    },
+    "PsychologicalDysfunctionAndImbalance" : {
+      "@id" : "https://tuos.org/qm#PsychologicalDysfunctionAndImbalance"
+    },
+    "ProbabilisticSteering" : {
+      "@id" : "https://tuos.org/qm#ProbabilisticSteering"
+    },
+    "isConstrainedBy" : {
+      "@id" : "https://tuos.org/qm#isConstrainedBy",
+      "@type" : "@id"
+    },
+    "WitnessConsciousness" : {
+      "@id" : "https://tuos.org/qm#WitnessConsciousness"
+    },
+    "IntersubjectiveResonance" : {
+      "@id" : "https://tuos.org/qm#IntersubjectiveResonance"
+    },
+    "StochasticInfluence" : {
+      "@id" : "https://tuos.org/qm#StochasticInfluence"
+    },
+    "isRegulatedBy" : {
+      "@id" : "https://tuos.org/qm#isRegulatedBy",
+      "@type" : "@id"
+    },
+    "CollapsePointInterventions" : {
+      "@id" : "https://tuos.org/qm#CollapsePointInterventions"
+    },
+    "CognitiveOptimization" : {
+      "@id" : "https://tuos.org/qm#CognitiveOptimization"
+    },
+    "SecondhandExperience" : {
+      "@id" : "https://tuos.org/qm#SecondhandExperience"
+    },
+    "isAchievedThrough" : {
+      "@id" : "https://tuos.org/qm#isAchievedThrough",
+      "@type" : "@id"
+    },
+    "PrincipleOfLimit" : {
+      "@id" : "https://tuos.org/qm#PrincipleOfLimit"
+    },
+    "ViewOfPerception" : {
+      "@id" : "https://tuos.org/qm#ViewOfPerception"
+    },
+    "PerceptualSuperposition" : {
+      "@id" : "https://tuos.org/qm#PerceptualSuperposition"
+    },
+    "PsychodynamicBalanceRestoration" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicBalanceRestoration"
+    },
+    "PerceivedLimitation" : {
+      "@id" : "https://tuos.org/qm#PerceivedLimitation"
+    },
+    "SharedReality" : {
+      "@id" : "https://tuos.org/qm#SharedReality"
+    },
+    "CreativePotential" : {
+      "@id" : "https://tuos.org/qm#CreativePotential"
+    },
+    "LiberationPhase" : {
+      "@id" : "https://tuos.org/qm#LiberationPhase"
+    },
+    "CognitiveEmotionalPatternInheritance" : {
+      "@id" : "https://tuos.org/qm#CognitiveEmotionalPatternInheritance"
+    },
+    "GeneralAwareness" : {
+      "@id" : "https://tuos.org/qm#GeneralAwareness"
+    },
+    "CultivationMethod" : {
+      "@id" : "https://tuos.org/qm#CultivationMethod"
+    },
+    "DecouplingPhase" : {
+      "@id" : "https://tuos.org/qm#DecouplingPhase"
+    },
+    "StrategicAttentionManagement" : {
+      "@id" : "https://tuos.org/qm#StrategicAttentionManagement"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "MentalFlexibility" : {
+      "@id" : "https://tuos.org/qm#MentalFlexibility"
+    },
+    "PurePotentiality" : {
+      "@id" : "https://tuos.org/qm#PurePotentiality"
+    },
+    "ConsciousStack" : {
+      "@id" : "https://tuos.org/qm#ConsciousStack"
+    },
+    "actualizes" : {
+      "@id" : "https://tuos.org/qm#actualizes",
+      "@type" : "@id"
+    },
+    "ImpulseReactivity" : {
+      "@id" : "https://tuos.org/qm#ImpulseReactivity"
+    },
+    "EthicalBoundaries" : {
+      "@id" : "https://tuos.org/qm#EthicalBoundaries"
+    },
+    "contrastsWith" : {
+      "@id" : "https://tuos.org/qm#contrastsWith",
+      "@type" : "@id"
+    },
+    "isResolvedBy" : {
+      "@id" : "https://tuos.org/qm#isResolvedBy",
+      "@type" : "@id"
+    },
+    "CognitiveEndurance" : {
+      "@id" : "https://tuos.org/qm#CognitiveEndurance"
+    },
+    "isCalculatedFrom" : {
+      "@id" : "https://tuos.org/qm#isCalculatedFrom",
+      "@type" : "@id"
+    },
+    "VolitionalContinuity" : {
+      "@id" : "https://tuos.org/qm#VolitionalContinuity"
+    },
+    "ContinuousMentationModel" : {
+      "@id" : "https://tuos.org/qm#ContinuousMentationModel"
+    },
+    "TransitionalModalities" : {
+      "@id" : "https://tuos.org/qm#TransitionalModalities"
+    },
+    "hasInterdimensionalConnection" : {
+      "@id" : "https://tuos.org/qm#hasInterdimensionalConnection",
+      "@type" : "@id"
+    },
+    "PsychologicalStructure" : {
+      "@id" : "https://tuos.org/qm#PsychologicalStructure"
+    },
+    "PsychodynamicCollapse" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicCollapse"
+    },
+    "PrimeModalityCategory" : {
+      "@id" : "https://tuos.org/qm#PrimeModalityCategory"
+    },
+    "DirectedFocus" : {
+      "@id" : "https://tuos.org/qm#DirectedFocus"
+    },
+    "ImpactOfTheNow" : {
+      "@id" : "https://tuos.org/qm#ImpactOfTheNow"
+    },
+    "ConsciousnessRefinement" : {
+      "@id" : "https://tuos.org/qm#ConsciousnessRefinement"
+    },
+    "ReverseEngineeringCollapsePatterns" : {
+      "@id" : "https://tuos.org/qm#ReverseEngineeringCollapsePatterns"
+    },
+    "MindfulnessApproachesComparisonCategory" : {
+      "@id" : "https://tuos.org/qm#MindfulnessApproachesComparisonCategory"
+    },
+    "PerceptualFreedom" : {
+      "@id" : "https://tuos.org/qm#PerceptualFreedom"
+    },
+    "ActionableIntelligence" : {
+      "@id" : "https://tuos.org/qm#ActionableIntelligence"
+    },
+    "PerceptualMastery" : {
+      "@id" : "https://tuos.org/qm#PerceptualMastery"
+    },
+    "initiatesModality" : {
+      "@id" : "https://tuos.org/qm#initiatesModality",
+      "@type" : "@id"
+    },
+    "TraumaticCollapse" : {
+      "@id" : "https://tuos.org/qm#TraumaticCollapse"
+    },
+    "NeurologicalEmbedding" : {
+      "@id" : "https://tuos.org/qm#NeurologicalEmbedding"
+    },
+    "isOutputOf" : {
+      "@id" : "https://tuos.org/qm#isOutputOf",
+      "@type" : "@id"
+    },
+    "PsychologicalSelfSurgery" : {
+      "@id" : "https://tuos.org/qm#PsychologicalSelfSurgery"
+    },
+    "hasMode" : {
+      "@id" : "https://tuos.org/qm#hasMode",
+      "@type" : "@id"
+    },
+    "AbstractInternalExperience" : {
+      "@id" : "https://tuos.org/qm#AbstractInternalExperience"
+    },
+    "PsychoFoundationalDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoFoundationalDimension"
+    },
+    "ExternalInfluence" : {
+      "@id" : "https://tuos.org/qm#ExternalInfluence"
+    },
+    "yields" : {
+      "@id" : "https://tuos.org/qm#yields",
+      "@type" : "@id"
+    },
+    "PersonalTendency_MoodPersistence" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_MoodPersistence"
+    },
+    "isSourceOf" : {
+      "@id" : "https://tuos.org/qm#isSourceOf",
+      "@type" : "@id"
+    },
+    "Contemplation" : {
+      "@id" : "https://tuos.org/qm#Contemplation"
+    },
+    "isLiberatedBy" : {
+      "@id" : "https://tuos.org/qm#isLiberatedBy",
+      "@type" : "@id"
+    },
+    "VolitionalImpulse" : {
+      "@id" : "https://tuos.org/qm#VolitionalImpulse"
+    },
+    "DimensionalMisalignment" : {
+      "@id" : "https://tuos.org/qm#DimensionalMisalignment"
+    },
+    "PsychologicalPhenomenon" : {
+      "@id" : "https://tuos.org/qm#PsychologicalPhenomenon"
+    },
+    "HumanCapacity" : {
+      "@id" : "https://tuos.org/qm#HumanCapacity"
+    },
+    "receivesInputFrom" : {
+      "@id" : "https://tuos.org/qm#receivesInputFrom",
+      "@type" : "@id"
+    },
+    "BoundedCompassion" : {
+      "@id" : "https://tuos.org/qm#BoundedCompassion"
+    },
+    "EnhancedDecisionMaking" : {
+      "@id" : "https://tuos.org/qm#EnhancedDecisionMaking"
+    },
+    "EpistemologicalChallenges" : {
+      "@id" : "https://tuos.org/qm#EpistemologicalChallenges"
+    },
+    "EngagementStyle" : {
+      "@id" : "https://tuos.org/qm#EngagementStyle"
+    },
+    "RecognitionPhase" : {
+      "@id" : "https://tuos.org/qm#RecognitionPhase"
+    },
+    "PerceptualReframing" : {
+      "@id" : "https://tuos.org/qm#PerceptualReframing"
+    },
+    "influences" : {
+      "@id" : "https://tuos.org/qm#influences",
+      "@type" : "@id"
+    },
+    "StructuredUnderstanding" : {
+      "@id" : "https://tuos.org/qm#StructuredUnderstanding"
+    },
+    "KnowledgeAcquisition" : {
+      "@id" : "https://tuos.org/qm#KnowledgeAcquisition"
+    },
+    "CognitiveFlow" : {
+      "@id" : "https://tuos.org/qm#CognitiveFlow"
+    },
+    "embodiesPrinciple" : {
+      "@id" : "https://tuos.org/qm#embodiesPrinciple",
+      "@type" : "@id"
+    },
+    "generates" : {
+      "@id" : "https://tuos.org/qm#generates",
+      "@type" : "@id"
+    },
+    "LearnedBehavioralRepertoire" : {
+      "@id" : "https://tuos.org/qm#LearnedBehavioralRepertoire"
+    },
+    "RelevanceFunction" : {
+      "@id" : "https://tuos.org/qm#RelevanceFunction"
+    },
+    "ActualizationProcess" : {
+      "@id" : "https://tuos.org/qm#ActualizationProcess"
+    },
+    "MindfulnessBasedCognitiveTherapy" : {
+      "@id" : "https://tuos.org/qm#MindfulnessBasedCognitiveTherapy"
+    },
+    "isFormedBy" : {
+      "@id" : "https://tuos.org/qm#isFormedBy",
+      "@type" : "@id"
+    },
+    "shapes" : {
+      "@id" : "https://tuos.org/qm#shapes",
+      "@type" : "@id"
+    },
+    "connection_Pd3_Pd6" : {
+      "@id" : "https://tuos.org/qm#connection_Pd3_Pd6",
+      "@type" : "@id"
+    },
+    "PersonalTendency_TraitExpression" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_TraitExpression"
+    },
+    "ChaosConciergePattern" : {
+      "@id" : "https://tuos.org/qm#ChaosConciergePattern"
+    },
+    "PersonalTendency" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency"
+    },
+    "UnconsciousReactiveCollapse" : {
+      "@id" : "https://tuos.org/qm#UnconsciousReactiveCollapse"
+    },
+    "isTransmittedVia" : {
+      "@id" : "https://tuos.org/qm#isTransmittedVia",
+      "@type" : "@id"
+    },
+    "EmotionalReactivityPattern" : {
+      "@id" : "https://tuos.org/qm#EmotionalReactivityPattern"
+    },
+    "CognitiveInfluence" : {
+      "@id" : "https://tuos.org/qm#CognitiveInfluence"
+    },
+    "connection_Pd6_Pd9" : {
+      "@id" : "https://tuos.org/qm#connection_Pd6_Pd9",
+      "@type" : "@id"
+    },
+    "differsFrom" : {
+      "@id" : "https://tuos.org/qm#differsFrom",
+      "@type" : "@id"
+    },
+    "CognitiveAppraisalComponent" : {
+      "@id" : "https://tuos.org/qm#CognitiveAppraisalComponent"
+    },
+    "functionsAs" : {
+      "@id" : "https://tuos.org/qm#functionsAs",
+      "@type" : "@id"
+    },
+    "isCultivatedBy" : {
+      "@id" : "https://tuos.org/qm#isCultivatedBy",
+      "@type" : "@id"
+    },
+    "targets" : {
+      "@id" : "https://tuos.org/qm#targets",
+      "@type" : "@id"
+    },
+    "ConsciousnessFortification" : {
+      "@id" : "https://tuos.org/qm#ConsciousnessFortification"
+    },
+    "definesRoleOfObserverAs" : {
+      "@id" : "https://tuos.org/qm#definesRoleOfObserverAs",
+      "@type" : "@id"
+    },
+    "PsychodynamicNavigation" : {
+      "@id" : "https://tuos.org/qm#PsychodynamicNavigation"
+    },
+    "TherapeuticInterventionForDistress" : {
+      "@id" : "https://tuos.org/qm#TherapeuticInterventionForDistress"
+    },
+    "composedOf" : {
+      "@id" : "https://tuos.org/qm#composedOf",
+      "@type" : "@id"
+    },
+    "embodies" : {
+      "@id" : "https://tuos.org/qm#embodies",
+      "@type" : "@id"
+    },
+    "hasPractice" : {
+      "@id" : "https://tuos.org/qm#hasPractice",
+      "@type" : "@id"
+    },
+    "DynamicInterconnectedNetwork" : {
+      "@id" : "https://tuos.org/qm#DynamicInterconnectedNetwork"
+    },
+    "SecondaryModality" : {
+      "@id" : "https://tuos.org/qm#SecondaryModality"
+    },
+    "ContemplativeInquiry" : {
+      "@id" : "https://tuos.org/qm#ContemplativeInquiry"
+    },
+    "InertiaOfThePast" : {
+      "@id" : "https://tuos.org/qm#InertiaOfThePast"
+    },
+    "OntologicalReassignment" : {
+      "@id" : "https://tuos.org/qm#OntologicalReassignment"
+    },
+    "connection_Pd7_Pd8" : {
+      "@id" : "https://tuos.org/qm#connection_Pd7_Pd8",
+      "@type" : "@id"
+    },
+    "SecondaryModalityCategory" : {
+      "@id" : "https://tuos.org/qm#SecondaryModalityCategory"
+    },
+    "CognitiveEnhancement" : {
+      "@id" : "https://tuos.org/qm#CognitiveEnhancement"
+    },
+    "PsychoVolitionalField" : {
+      "@id" : "https://tuos.org/qm#PsychoVolitionalField"
+    },
+    "CollapseInfluencePractice" : {
+      "@id" : "https://tuos.org/qm#CollapseInfluencePractice"
+    },
+    "CognitiveStructuringApproaches" : {
+      "@id" : "https://tuos.org/qm#CognitiveStructuringApproaches"
+    },
+    "PsychoTranspersonalDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoTranspersonalDimension"
+    },
+    "QuantumPerception" : {
+      "@id" : "https://tuos.org/qm#QuantumPerception"
+    },
+    "isKeyTo" : {
+      "@id" : "https://tuos.org/qm#isKeyTo",
+      "@type" : "@id"
+    },
+    "MindfulnessIntervention" : {
+      "@id" : "https://tuos.org/qm#MindfulnessIntervention"
+    },
+    "MultidimensionalScanning" : {
+      "@id" : "https://tuos.org/qm#MultidimensionalScanning"
+    },
+    "VolitionalReframing" : {
+      "@id" : "https://tuos.org/qm#VolitionalReframing"
+    },
+    "IntentionalCollapse" : {
+      "@id" : "https://tuos.org/qm#IntentionalCollapse"
+    },
+    "initiates" : {
+      "@id" : "https://tuos.org/qm#initiates",
+      "@type" : "@id"
+    },
+    "ProbabilisticMentalState" : {
+      "@id" : "https://tuos.org/qm#ProbabilisticMentalState"
+    },
+    "Examples_Emergent" : {
+      "@id" : "https://tuos.org/qm#Examples_Emergent"
+    },
+    "OntologicalFirewall" : {
+      "@id" : "https://tuos.org/qm#OntologicalFirewall"
+    },
+    "connection_Pd1_Pd6" : {
+      "@id" : "https://tuos.org/qm#connection_Pd1_Pd6",
+      "@type" : "@id"
+    },
+    "isAppliedTo" : {
+      "@id" : "https://tuos.org/qm#isAppliedTo",
+      "@type" : "@id"
+    },
+    "CognitiveResources" : {
+      "@id" : "https://tuos.org/qm#CognitiveResources"
+    },
+    "CognitiveMeasurement" : {
+      "@id" : "https://tuos.org/qm#CognitiveMeasurement"
+    },
+    "emergesFromInteractionOf" : {
+      "@id" : "https://tuos.org/qm#emergesFromInteractionOf",
+      "@type" : "@id"
+    },
+    "connection_Pd4_Pd5" : {
+      "@id" : "https://tuos.org/qm#connection_Pd4_Pd5",
+      "@type" : "@id"
+    },
+    "SelfConceptConstruction" : {
+      "@id" : "https://tuos.org/qm#SelfConceptConstruction"
+    },
+    "ImposterSyndrome" : {
+      "@id" : "https://tuos.org/qm#ImposterSyndrome"
+    },
+    "governs" : {
+      "@id" : "https://tuos.org/qm#governs",
+      "@type" : "@id"
+    },
+    "hasConstraint" : {
+      "@id" : "https://tuos.org/qm#hasConstraint",
+      "@type" : "@id"
+    },
+    "VolitionalCommitment" : {
+      "@id" : "https://tuos.org/qm#VolitionalCommitment"
+    },
+    "SelfIntegrity" : {
+      "@id" : "https://tuos.org/qm#SelfIntegrity"
+    },
+    "DimensionalAttunement" : {
+      "@id" : "https://tuos.org/qm#DimensionalAttunement"
+    },
+    "PersonalTendency_Reactivity" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_Reactivity"
+    },
+    "CognitiveMechanism" : {
+      "@id" : "https://tuos.org/qm#CognitiveMechanism"
+    },
+    "produces" : {
+      "@id" : "https://tuos.org/qm#produces",
+      "@type" : "@id"
+    },
+    "connection_Pd4_Pd7" : {
+      "@id" : "https://tuos.org/qm#connection_Pd4_Pd7",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "LiberationProcess" : {
+      "@id" : "https://tuos.org/qm#LiberationProcess"
+    },
+    "CognitiveEntropicDrift" : {
+      "@id" : "https://tuos.org/qm#CognitiveEntropicDrift"
+    },
+    "NonLocalCognition" : {
+      "@id" : "https://tuos.org/qm#NonLocalCognition"
+    },
+    "GroundingFunction" : {
+      "@id" : "https://tuos.org/qm#GroundingFunction"
+    },
+    "ContemplativeExperimentation" : {
+      "@id" : "https://tuos.org/qm#ContemplativeExperimentation"
+    },
+    "SigmoidFunction" : {
+      "@id" : "https://tuos.org/qm#SigmoidFunction"
+    },
+    "hasDefinition" : {
+      "@id" : "https://tuos.org/qm#hasDefinition"
+    },
+    "ObjectiveConstraints" : {
+      "@id" : "https://tuos.org/qm#ObjectiveConstraints"
+    },
+    "leadsTo" : {
+      "@id" : "https://tuos.org/qm#leadsTo",
+      "@type" : "@id"
+    },
+    "InstitutionalArchitectureImposition" : {
+      "@id" : "https://tuos.org/qm#InstitutionalArchitectureImposition"
+    },
+    "RequiredTrainingAndCapacity" : {
+      "@id" : "https://tuos.org/qm#RequiredTrainingAndCapacity"
+    },
+    "EnvironmentalInfluence" : {
+      "@id" : "https://tuos.org/qm#EnvironmentalInfluence"
+    },
+    "PsychologicalDisharmony" : {
+      "@id" : "https://tuos.org/qm#PsychologicalDisharmony"
+    },
+    "progressesTo" : {
+      "@id" : "https://tuos.org/qm#progressesTo",
+      "@type" : "@id"
+    },
+    "isTransformedUsing" : {
+      "@id" : "https://tuos.org/qm#isTransformedUsing"
+    },
+    "DecisionArchitecture" : {
+      "@id" : "https://tuos.org/qm#DecisionArchitecture"
+    },
+    "isSubjectTo" : {
+      "@id" : "https://tuos.org/qm#isSubjectTo",
+      "@type" : "@id"
+    },
+    "QM_QuantumPrinciple" : {
+      "@id" : "https://tuos.org/qm#QM_QuantumPrinciple"
+    },
+    "hasPrimacyOver" : {
+      "@id" : "https://tuos.org/qm#hasPrimacyOver",
+      "@type" : "@id"
+    },
+    "EmotionalOpenness" : {
+      "@id" : "https://tuos.org/qm#EmotionalOpenness"
+    },
+    "DissociativeState" : {
+      "@id" : "https://tuos.org/qm#DissociativeState"
+    },
+    "Identity" : {
+      "@id" : "https://tuos.org/qm#Identity"
+    },
+    "FrameworkPrinciple" : {
+      "@id" : "https://tuos.org/qm#FrameworkPrinciple"
+    },
+    "Phenomenon" : {
+      "@id" : "https://tuos.org/qm#Phenomenon"
+    },
+    "connection_Pd7_Pd9" : {
+      "@id" : "https://tuos.org/qm#connection_Pd7_Pd9",
+      "@type" : "@id"
+    },
+    "CognitiveFieldManipulation" : {
+      "@id" : "https://tuos.org/qm#CognitiveFieldManipulation"
+    },
+    "InfluentialFactor" : {
+      "@id" : "https://tuos.org/qm#InfluentialFactor"
+    },
+    "BalancingDimensionalEnergies" : {
+      "@id" : "https://tuos.org/qm#BalancingDimensionalEnergies"
+    },
+    "connection_Pd2_Pd4" : {
+      "@id" : "https://tuos.org/qm#connection_Pd2_Pd4",
+      "@type" : "@id"
+    },
+    "FlowDynamicsInConsciousness" : {
+      "@id" : "https://tuos.org/qm#FlowDynamicsInConsciousness"
+    },
+    "StrategicWaveformArchitecture" : {
+      "@id" : "https://tuos.org/qm#StrategicWaveformArchitecture"
+    },
+    "connection_Pd2_Pd3" : {
+      "@id" : "https://tuos.org/qm#connection_Pd2_Pd3",
+      "@type" : "@id"
+    },
+    "isFundamentalTo" : {
+      "@id" : "https://tuos.org/qm#isFundamentalTo",
+      "@type" : "@id"
+    },
+    "PassiveRecipientView" : {
+      "@id" : "https://tuos.org/qm#PassiveRecipientView"
+    },
+    "CognitiveDistillation" : {
+      "@id" : "https://tuos.org/qm#CognitiveDistillation"
+    },
+    "CraftsmanshipOfCollapse" : {
+      "@id" : "https://tuos.org/qm#CraftsmanshipOfCollapse"
+    },
+    "IntegratedTherapeuticApproaches" : {
+      "@id" : "https://tuos.org/qm#IntegratedTherapeuticApproaches"
+    },
+    "uses" : {
+      "@id" : "https://tuos.org/qm#uses",
+      "@type" : "@id"
+    },
+    "hasPhase" : {
+      "@id" : "https://tuos.org/qm#hasPhase",
+      "@type" : "@id"
+    },
+    "AdvancedPracticesAndMethodologiesCategory" : {
+      "@id" : "https://tuos.org/qm#AdvancedPracticesAndMethodologiesCategory"
+    },
+    "CollapseMode" : {
+      "@id" : "https://tuos.org/qm#CollapseMode"
+    },
+    "arisesFrom" : {
+      "@id" : "https://tuos.org/qm#arisesFrom",
+      "@type" : "@id"
+    },
+    "PassiveMastery" : {
+      "@id" : "https://tuos.org/qm#PassiveMastery"
+    },
+    "Memory" : {
+      "@id" : "https://tuos.org/qm#Memory"
+    },
+    "IntuitiveCognition" : {
+      "@id" : "https://tuos.org/qm#IntuitiveCognition"
+    },
+    "StructuralIntrospection" : {
+      "@id" : "https://tuos.org/qm#StructuralIntrospection"
+    },
+    "MindfulnessGoal" : {
+      "@id" : "https://tuos.org/qm#MindfulnessGoal"
+    },
+    "DecoherenceBacklog" : {
+      "@id" : "https://tuos.org/qm#DecoherenceBacklog"
+    },
+    "ExecutiveFunctionTraining" : {
+      "@id" : "https://tuos.org/qm#ExecutiveFunctionTraining"
+    },
+    "EpistemologicalDiscernment" : {
+      "@id" : "https://tuos.org/qm#EpistemologicalDiscernment"
+    },
+    "hasSubStrategy" : {
+      "@id" : "https://tuos.org/qm#hasSubStrategy",
+      "@type" : "@id"
+    },
+    "ConstructedReality" : {
+      "@id" : "https://tuos.org/qm#ConstructedReality"
+    },
+    "FrameworkPrinciplesCategory" : {
+      "@id" : "https://tuos.org/qm#FrameworkPrinciplesCategory"
+    },
+    "EmpiricalAbsence" : {
+      "@id" : "https://tuos.org/qm#EmpiricalAbsence"
+    },
+    "NonMaterialPhenomenon" : {
+      "@id" : "https://tuos.org/qm#NonMaterialPhenomenon"
+    },
+    "hasResultingOutcome" : {
+      "@id" : "https://tuos.org/qm#hasResultingOutcome",
+      "@type" : "@id"
+    },
+    "ConsciousStateManagement" : {
+      "@id" : "https://tuos.org/qm#ConsciousStateManagement"
+    },
+    "isNegatedBy" : {
+      "@id" : "https://tuos.org/qm#isNegatedBy",
+      "@type" : "@id"
+    },
+    "FormalTestimony" : {
+      "@id" : "https://tuos.org/qm#FormalTestimony"
+    },
+    "bridgesTo" : {
+      "@id" : "https://tuos.org/qm#bridgesTo",
+      "@type" : "@id"
+    },
+    "servesAs" : {
+      "@id" : "https://tuos.org/qm#servesAs",
+      "@type" : "@id"
+    },
+    "GoalAbandonment" : {
+      "@id" : "https://tuos.org/qm#GoalAbandonment"
+    },
+    "PerceivedMeaning" : {
+      "@id" : "https://tuos.org/qm#PerceivedMeaning"
+    },
+    "HumorAsCognitiveTechnology" : {
+      "@id" : "https://tuos.org/qm#HumorAsCognitiveTechnology"
+    },
+    "CognitiveProcess" : {
+      "@id" : "https://tuos.org/qm#CognitiveProcess"
+    },
+    "ResolutionFatigue" : {
+      "@id" : "https://tuos.org/qm#ResolutionFatigue"
+    },
+    "EmotionalQuantumEntanglement" : {
+      "@id" : "https://tuos.org/qm#EmotionalQuantumEntanglement"
+    },
+    "ManipulationOfConstructedReality" : {
+      "@id" : "https://tuos.org/qm#ManipulationOfConstructedReality"
+    },
+    "LimitationOfDirectObservation" : {
+      "@id" : "https://tuos.org/qm#LimitationOfDirectObservation"
+    },
+    "isFirstStepIn" : {
+      "@id" : "https://tuos.org/qm#isFirstStepIn",
+      "@type" : "@id"
+    },
+    "PsychoReceptiveDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoReceptiveDimension"
+    },
+    "DimensionalActivationInfluence" : {
+      "@id" : "https://tuos.org/qm#DimensionalActivationInfluence"
+    },
+    "InterferencePattern" : {
+      "@id" : "https://tuos.org/qm#InterferencePattern"
+    },
+    "ExperiencedReality" : {
+      "@id" : "https://tuos.org/qm#ExperiencedReality"
+    },
+    "ImpulseTowardGenerativeSharing" : {
+      "@id" : "https://tuos.org/qm#ImpulseTowardGenerativeSharing"
+    },
+    "PersonalTendency_CognitiveResponsiveness" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_CognitiveResponsiveness"
+    },
+    "isLocusOf" : {
+      "@id" : "https://tuos.org/qm#isLocusOf",
+      "@type" : "@id"
+    },
+    "ActiveKnowing" : {
+      "@id" : "https://tuos.org/qm#ActiveKnowing"
+    },
+    "Will" : {
+      "@id" : "https://tuos.org/qm#Will"
+    },
+    "CognitiveCollapse" : {
+      "@id" : "https://tuos.org/qm#CognitiveCollapse"
+    },
+    "WillToConnection" : {
+      "@id" : "https://tuos.org/qm#WillToConnection"
+    },
+    "ObservationComponentsCategory" : {
+      "@id" : "https://tuos.org/qm#ObservationComponentsCategory"
+    },
+    "harmonizes" : {
+      "@id" : "https://tuos.org/qm#harmonizes",
+      "@type" : "@id"
+    },
+    "ZeigarnikEffect" : {
+      "@id" : "https://tuos.org/qm#ZeigarnikEffect"
+    },
+    "MentalPhysicalInterface" : {
+      "@id" : "https://tuos.org/qm#MentalPhysicalInterface"
+    },
+    "ObserverParticipantRole" : {
+      "@id" : "https://tuos.org/qm#ObserverParticipantRole"
+    },
+    "OtherKeyConcepts" : {
+      "@id" : "https://tuos.org/qm#OtherKeyConcepts"
+    },
+    "dependsOn" : {
+      "@id" : "https://tuos.org/qm#dependsOn",
+      "@type" : "@id"
+    },
+    "contributesTo" : {
+      "@id" : "https://tuos.org/qm#contributesTo",
+      "@type" : "@id"
+    },
+    "connection_Pd6_Pd7" : {
+      "@id" : "https://tuos.org/qm#connection_Pd6_Pd7",
+      "@type" : "@id"
+    },
+    "PsychoMotivationalMomentum" : {
+      "@id" : "https://tuos.org/qm#PsychoMotivationalMomentum"
+    },
+    "MainStrategiesCategory" : {
+      "@id" : "https://tuos.org/qm#MainStrategiesCategory"
+    },
+    "ConsensusReality" : {
+      "@id" : "https://tuos.org/qm#ConsensusReality"
+    },
+    "isArchitectOf" : {
+      "@id" : "https://tuos.org/qm#isArchitectOf",
+      "@type" : "@id"
+    },
+    "InternalCartography" : {
+      "@id" : "https://tuos.org/qm#InternalCartography"
+    },
+    "PersonalTendency_Persistence" : {
+      "@id" : "https://tuos.org/qm#PersonalTendency_Persistence"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "performs" : {
+      "@id" : "https://tuos.org/qm#performs",
+      "@type" : "@id"
+    },
+    "SelectivePermeability" : {
+      "@id" : "https://tuos.org/qm#SelectivePermeability"
+    },
+    "CognitiveAnchoringComponent" : {
+      "@id" : "https://tuos.org/qm#CognitiveAnchoringComponent"
+    },
+    "PracticalLimitationsOfQMApplication" : {
+      "@id" : "https://tuos.org/qm#PracticalLimitationsOfQMApplication"
+    },
+    "TracingOriginsPhase" : {
+      "@id" : "https://tuos.org/qm#TracingOriginsPhase"
+    },
+    "NonReactiveObservation" : {
+      "@id" : "https://tuos.org/qm#NonReactiveObservation"
+    },
+    "IncompleteProcessTension" : {
+      "@id" : "https://tuos.org/qm#IncompleteProcessTension"
+    },
+    "SustainedAction" : {
+      "@id" : "https://tuos.org/qm#SustainedAction"
+    },
+    "ValueAlignment" : {
+      "@id" : "https://tuos.org/qm#ValueAlignment"
+    },
+    "PriorStateInfluence" : {
+      "@id" : "https://tuos.org/qm#PriorStateInfluence"
+    },
+    "ExistentialDissonance" : {
+      "@id" : "https://tuos.org/qm#ExistentialDissonance"
+    },
+    "PracticalWisdom" : {
+      "@id" : "https://tuos.org/qm#PracticalWisdom"
+    },
+    "PsychologicalEntanglement" : {
+      "@id" : "https://tuos.org/qm#PsychologicalEntanglement"
+    },
+    "PerceptualFraming" : {
+      "@id" : "https://tuos.org/qm#PerceptualFraming"
+    },
+    "impliesNeedFor" : {
+      "@id" : "https://tuos.org/qm#impliesNeedFor",
+      "@type" : "@id"
+    },
+    "enables" : {
+      "@id" : "https://tuos.org/qm#enables",
+      "@type" : "@id"
+    },
+    "posits" : {
+      "@id" : "https://tuos.org/qm#posits",
+      "@type" : "@id"
+    },
+    "StrategicCognitiveTrajectoryManipulation" : {
+      "@id" : "https://tuos.org/qm#StrategicCognitiveTrajectoryManipulation"
+    },
+    "PsychologicalState" : {
+      "@id" : "https://tuos.org/qm#PsychologicalState"
+    },
+    "PrimeModality" : {
+      "@id" : "https://tuos.org/qm#PrimeModality"
+    },
+    "AssignedMeaning" : {
+      "@id" : "https://tuos.org/qm#AssignedMeaning"
+    },
+    "PsychoMeditativeDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoMeditativeDimension"
+    },
+    "PrincipleOfBalance" : {
+      "@id" : "https://tuos.org/qm#PrincipleOfBalance"
+    },
+    "CalculatedTurbulence" : {
+      "@id" : "https://tuos.org/qm#CalculatedTurbulence"
+    },
+    "PsychoVolitionalDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoVolitionalDimension"
+    },
+    "DeepPsychologicalTrauma" : {
+      "@id" : "https://tuos.org/qm#DeepPsychologicalTrauma"
+    },
+    "PlausibilityEngineering" : {
+      "@id" : "https://tuos.org/qm#PlausibilityEngineering"
+    },
+    "GeometricDimensionsOfAwareness" : {
+      "@id" : "https://tuos.org/qm#GeometricDimensionsOfAwareness"
+    },
+    "ExperientialLimit" : {
+      "@id" : "https://tuos.org/qm#ExperientialLimit"
+    },
+    "interferesWith" : {
+      "@id" : "https://tuos.org/qm#interferesWith",
+      "@type" : "@id"
+    },
+    "informs" : {
+      "@id" : "https://tuos.org/qm#informs",
+      "@type" : "@id"
+    },
+    "InferentialEpistemology" : {
+      "@id" : "https://tuos.org/qm#InferentialEpistemology"
+    },
+    "ConditioningMechanism" : {
+      "@id" : "https://tuos.org/qm#ConditioningMechanism"
+    },
+    "SubconsciousInfrastructure" : {
+      "@id" : "https://tuos.org/qm#SubconsciousInfrastructure"
+    },
+    "ObservationValence" : {
+      "@id" : "https://tuos.org/qm#ObservationValence"
+    },
+    "ObserverFunction" : {
+      "@id" : "https://tuos.org/qm#ObserverFunction"
+    },
+    "HistoricalImprint" : {
+      "@id" : "https://tuos.org/qm#HistoricalImprint"
+    },
+    "Jealousy" : {
+      "@id" : "https://tuos.org/qm#Jealousy"
+    },
+    "EmergentPropertiesCategory" : {
+      "@id" : "https://tuos.org/qm#EmergentPropertiesCategory"
+    },
+    "ReverseEngineeringEmotionalStates" : {
+      "@id" : "https://tuos.org/qm#ReverseEngineeringEmotionalStates"
+    },
+    "OntologicalMisalignment" : {
+      "@id" : "https://tuos.org/qm#OntologicalMisalignment"
+    },
+    "FreeWill" : {
+      "@id" : "https://tuos.org/qm#FreeWill"
+    },
+    "connection_Pd8_Pd10" : {
+      "@id" : "https://tuos.org/qm#connection_Pd8_Pd10",
+      "@type" : "@id"
+    },
+    "PerceptualConstructionTheory" : {
+      "@id" : "https://tuos.org/qm#PerceptualConstructionTheory"
+    },
+    "ClassicalMindfulness" : {
+      "@id" : "https://tuos.org/qm#ClassicalMindfulness"
+    },
+    "MentalQuanta" : {
+      "@id" : "https://tuos.org/qm#MentalQuanta"
+    },
+    "isMediatedBy" : {
+      "@id" : "https://tuos.org/qm#isMediatedBy",
+      "@type" : "@id"
+    },
+    "CreativeGenesis" : {
+      "@id" : "https://tuos.org/qm#CreativeGenesis"
+    },
+    "PsychoEmpathicDimension" : {
+      "@id" : "https://tuos.org/qm#PsychoEmpathicDimension"
+    },
+    "ProcessingMechanism" : {
+      "@id" : "https://tuos.org/qm#ProcessingMechanism"
+    },
+    "isAlteredBy" : {
+      "@id" : "https://tuos.org/qm#isAlteredBy",
+      "@type" : "@id"
+    },
+    "PerceivedProblem" : {
+      "@id" : "https://tuos.org/qm#PerceivedProblem"
+    },
+    "OptimalCognitiveState" : {
+      "@id" : "https://tuos.org/qm#OptimalCognitiveState"
+    },
+    "isConfirmedBy" : {
+      "@id" : "https://tuos.org/qm#isConfirmedBy",
+      "@type" : "@id"
+    },
+    "ConsciousAwareness" : {
+      "@id" : "https://tuos.org/qm#ConsciousAwareness"
+    },
+    "RawPerceptualImprint" : {
+      "@id" : "https://tuos.org/qm#RawPerceptualImprint"
+    },
+    "PsychologicalTransformationViaOntologicalReassignment" : {
+      "@id" : "https://tuos.org/qm#PsychologicalTransformationViaOntologicalReassignment"
+    },
+    "ProjectedAnxietySystem" : {
+      "@id" : "https://tuos.org/qm#ProjectedAnxietySystem"
+    },
+    "CreativeParalysis" : {
+      "@id" : "https://tuos.org/qm#CreativeParalysis"
+    },
+    "mutuallyInfluences" : {
+      "@id" : "https://tuos.org/qm#mutuallyInfluences",
+      "@type" : "@id"
+    },
+    "PerceptualSophistication" : {
+      "@id" : "https://tuos.org/qm#PerceptualSophistication"
+    },
+    "TacitKnowledge" : {
+      "@id" : "https://tuos.org/qm#TacitKnowledge"
+    },
+    "PurposeRedefinition" : {
+      "@id" : "https://tuos.org/qm#PurposeRedefinition"
+    },
+    "OntologicalFieldTheory" : {
+      "@id" : "https://tuos.org/qm#OntologicalFieldTheory"
+    },
+    "SuperpositionCultivationMethod" : {
+      "@id" : "https://tuos.org/qm#SuperpositionCultivationMethod"
+    },
+    "CognitiveBias" : {
+      "@id" : "https://tuos.org/qm#CognitiveBias"
+    },
+    "AttentionSculpting" : {
+      "@id" : "https://tuos.org/qm#AttentionSculpting"
+    },
+    "CognitiveOptimizationAndRefinement" : {
+      "@id" : "https://tuos.org/qm#CognitiveOptimizationAndRefinement"
+    },
+    "CognitiveAnchoringFailure" : {
+      "@id" : "https://tuos.org/qm#CognitiveAnchoringFailure"
+    },
+    "AdvancedPractice" : {
+      "@id" : "https://tuos.org/qm#AdvancedPractice"
+    },
+    "CognitiveAnchoringFailureConsequence" : {
+      "@id" : "https://tuos.org/qm#CognitiveAnchoringFailureConsequence"
+    },
+    "PsychicArchitecture" : {
+      "@id" : "https://tuos.org/qm#PsychicArchitecture"
+    },
+    "AverageValenceOfPriorState" : {
+      "@id" : "https://tuos.org/qm#AverageValenceOfPriorState"
+    },
+    "connection_Pd5_Pd6" : {
+      "@id" : "https://tuos.org/qm#connection_Pd5_Pd6",
+      "@type" : "@id"
+    },
+    "Observation" : {
+      "@id" : "https://tuos.org/qm#Observation"
+    },
+    "TranslationFatigue" : {
+      "@id" : "https://tuos.org/qm#TranslationFatigue"
+    },
+    "Attunement" : {
+      "@id" : "https://tuos.org/qm#Attunement"
+    },
+    "hasDynamic" : {
+      "@id" : "https://tuos.org/qm#hasDynamic",
+      "@type" : "@id"
+    },
+    "InterpersonalRelationshipExperience" : {
+      "@id" : "https://tuos.org/qm#InterpersonalRelationshipExperience"
+    },
+    "CognitiveOverwhelm" : {
+      "@id" : "https://tuos.org/qm#CognitiveOverwhelm"
+    },
+    "Uncategorized" : {
+      "@id" : "https://tuos.org/qm#Uncategorized"
+    },
+    "InternalMap" : {
+      "@id" : "https://tuos.org/qm#InternalMap"
+    },
+    "CollapseFatigue" : {
+      "@id" : "https://tuos.org/qm#CollapseFatigue"
+    },
+    "RelationalMindfulness" : {
+      "@id" : "https://tuos.org/qm#RelationalMindfulness"
+    },
+    "dissolves" : {
+      "@id" : "https://tuos.org/qm#dissolves",
+      "@type" : "@id"
+    },
+    "SomaticLiteracy" : {
+      "@id" : "https://tuos.org/qm#SomaticLiteracy"
+    },
+    "InheritedScript" : {
+      "@id" : "https://tuos.org/qm#InheritedScript"
+    },
+    "EnvironmentalResonance" : {
+      "@id" : "https://tuos.org/qm#EnvironmentalResonance"
+    }
+  }
+}
