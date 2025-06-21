@@ -23,6 +23,12 @@ The ontology defines core concepts, structures, and processes that enable advanc
 - Transformation of perceptual architecture
 
 ---
+## 🧠 Quantum Mindfulness Ontology
+
+#### 📄 [Download the ontology (.ttl)](./quantum_mindfulness.ttl)  
+
+#### 🌐 [View ontology documentation](https://tuosuniversity.github.io/QMOnto/)
+
 
 ### 🧠 Use with NotebookLM and AI Assistants
 
