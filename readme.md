@@ -22,6 +22,10 @@ The ontology defines core concepts, structures, and processes that enable advanc
 - Engagement with Prime Modality dimensions (Pd1–Pd3)
 - Transformation of perceptual architecture
 
+### 🌐 Bilingual Capability
+
+As of version 1.0.0, this ontology includes full Spanish-language support. All core labels, definitions, and comments are available in both English (`@en`) and Spanish (`@es`). This makes the ontology suitable for cross-linguistic semantic applications, multilingual education, and accessible AI interpretation in both languages.
+
 ---
 ## 🧠 Quantum Mindfulness Ontology
 
@@ -33,6 +37,8 @@ The ontology defines core concepts, structures, and processes that enable advanc
 ### 🧠 Use with NotebookLM and AI Assistants
 
 This ontology is optimized for conceptual exploration, visual reasoning, and multi-modal interpretation in tools like NotebookLM, ChatGPT, and Gemini. Its size and structure make it ideal for semantic navigation and theory testing.
+
+The ontology’s bilingual structure supports querying and analysis in both English and Spanish. When NotebookLM is set to Spanish output mode, it will preferentially interpret and summarize using the `@es` language annotations.
 
 #### 📚 How to Use in NotebookLM
 1.	Upload [**chatbot_primer.md**](chatbot_primer.md) into the file selection panel.
@@ -77,7 +83,7 @@ This enhances cognitive retention and supports alternative learning modes—espe
 #### ✅ Compatible Tools
 
 Tool	Capability
-NotebookLM	Multi-source ontology Q&A
+NotebookLM	Multi-source ontology Q&A (supports English and Spanish annotations)
 ChatGPT Pro	TTL-grounded conceptual modeling
 Gemini	Structural interpretation of .ttl
 Protegé	Class/property navigation & OWL DL
@@ -97,6 +103,10 @@ It includes class/property trees, annotations, and downloadable RDF exports.
 If using this ontology in academic work:
 
 > Fryson, D. (2025). *Quantum Mindfulness - Formal Psychodynamic Architecture Ontology* (v1.0) [Ontology]. The University of Ontological Science. https://github.com/[your-username]/Quantum-Mindfulness-Ontology
+
+For Spanish-language reference, cite as:
+
+> Fryson, D. (2025). *Mindfulness Cuántico - Ontología Formal de la Arquitectura Psicodinámica* (v1.0) [Ontología]. Universidad de la Ciencia Ontológica. https://github.com/[your-username]/Quantum-Mindfulness-Ontology
 
 ---
 
